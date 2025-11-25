@@ -72,6 +72,7 @@ The project compared different modeling approaches, finding that the Dynamic ODE
 
 ## 🛣️ Mathematical Foundation
 The core trajectory is defined by the following differential system:
+
 $$
  \dot{x} = \alpha x - \omega y
 $$
