@@ -72,9 +72,17 @@ The project compared different modeling approaches, finding that the Dynamic ODE
 
 ## 🛣️ Mathematical Foundation
 The core trajectory is defined by the following differential system:
-$$ \dot{x} = \alpha x - \omega y $$
-$$ \dot{y} = \alpha y + \omega x $$
-$$ \dot{z} = -\sum a_i \Delta \theta_i \exp\left(-\frac{\Delta\theta_i^2}{2b_i^2}\right) - (z - z_0) $$
+$$
+ \dot{x} = \alpha x - \omega y
+$$
+
+$$
+\dot{y} = \alpha y + \omega x
+$$
+
+$$
+ \dot{z} = -\sum a_i \Delta \theta_i \exp\left(-\frac{\Delta\theta_i^2}{2b_i^2}\right) - (z - z_0) 
+$$
 
 Where $z$ represents the ECG amplitude, and parameters $a_i, b_i, \theta_i$ control the shape of the P-Q-R-S-T waves.
 
